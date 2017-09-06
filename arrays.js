@@ -9,7 +9,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array;
 }
-console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "Hello"))
+console.log(addElementToBeginningOfArray(chocolateBars, "Hello"))
 function addElementToEndOfArray(array, element){
   return array.push(element);
 
