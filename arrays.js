@@ -9,10 +9,10 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array;
 }
-
+console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, "Hello"))
 function addElementToEndOfArray(array, element){
   return array.push(element);
-  
+
 }
 
 function destructivelyAddElementToEndOfArray() {
