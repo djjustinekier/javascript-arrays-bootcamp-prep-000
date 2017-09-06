@@ -40,10 +40,8 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  var end = array.length - 1;
-  var neg = -1 * end;
-  return array.slice(neg);
-
+  array.shift();
+  return array;
 }
 
 function removeElementFromEndOfArray(array) {
