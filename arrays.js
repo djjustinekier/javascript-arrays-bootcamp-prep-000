@@ -40,11 +40,11 @@ function accessElementInArray(array, index) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   var end = array.length - 1;
-  return array.slice(-)
+  return array.slice(end)
 
 }
 
-function removeElementFromEndOfArray() {
+function removeElementFromEndOfArray(array) {
   var end = array.length - 2;
   var newArray = array.splice(0, end);
   return newArray;
