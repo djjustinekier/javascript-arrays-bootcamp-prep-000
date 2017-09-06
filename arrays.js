@@ -41,7 +41,8 @@ function accessElementInArray(array, index) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   var end = array.length - 1;
-  return array.slice(end)
+  var neg = -1 * end;
+  return array.slice(neg)
 
 }
 
